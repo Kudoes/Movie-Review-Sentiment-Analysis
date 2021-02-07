@@ -63,7 +63,7 @@ To generate the customized vocabulary, the following procedure was followed:
 8. Fit a LASSO regression model to this new DTM and select only the top 684 most important terms.
 9. Save the resulting terms in a myvocab.txt file for the rest of the program.
 
-After this process, we have a vocabulary size of 684 terms.
+After this process, we have a vocabulary size of 684 terms. Essentially, a two-sample t-test was used to identify the words in the vocabulary that were most strongly correlated with a positive/negative review. Next, a LASSO model was fit to those 2000 terms and L1 regularization was done to select only the top 684 most impactful terms from among those 2000.
 
 ## 2.3 Model Fitting and Tuning
 
