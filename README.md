@@ -11,8 +11,6 @@ To accomplish this task, the following files are included in this repository:
 4. `mymain.R`: This file contains the code to train the model and evaluate the results (using AUC) on the test set.
 5. `eval_code.R`: This is the script used to generate AUC results for each of the five splits.
 
-`create_vocab.R`
-
 ## 1.1 Dataset
 
 The dataset used in this project is similar to one used in the Kaggle competition “Bag of Words Meets
